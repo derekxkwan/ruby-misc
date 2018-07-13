@@ -2,6 +2,11 @@
 miscellaneous ruby scripts
 
 
+## ismyinternetup.rb
+- **description** - written during an internet outage, creates a thread that endlessly tries to establish a TCP socket connection with 8.8.8.8, port 53 until it finally gets through 
+- **args** - none
+- **output** - error messages until connection established (which it acknowledges)
+
 ## org_to_json.rb
 - **description** - converts org-files into json
 - **args** - org-file to convert (must have extension .org)
